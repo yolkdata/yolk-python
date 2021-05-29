@@ -1,0 +1,12 @@
+.DS_Store
+.env
+**sublime**
+*.pyc
+dist
+*.egg-info
+dist
+MANIFEST
+build
+.eggs
+*.bat
+.vscode/
