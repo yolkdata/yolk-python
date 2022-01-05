@@ -54,7 +54,7 @@ def post(org, write_key, env, ids, appInfo, gzip, timeout=15, proxies=None, **kw
         "data": data
     }
 
-    url = remove_trailing_slash('https://api.' + org + '.yolkanalytics.com/track')
+    url = remove_trailing_slash('https://' + org + '.yolk-api.com/track')
 
     body = json.dumps(wrapper, cls=DatetimeSerializer)
 
